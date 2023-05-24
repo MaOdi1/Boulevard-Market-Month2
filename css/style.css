@@ -1,0 +1,204 @@
+@import url(./fonts.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-weight: 400;
+  background: #151515;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px;
+  width: 100%;
+}
+.header {
+  background: #282828;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__wrap_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.header__wrap_nav_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.header__wrap_nav_list-item a {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+}
+.header__wrap_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.banner {
+  background: url(../img/banner.png) no-repeat center/cover;
+  height: 90vh;
+}
+.banner__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 38px;
+  height: 100%;
+}
+.banner__wrap_title-h {
+  font-size: 100px;
+  line-height: 75px;
+  color: white;
+}
+.banner__wrap_btn-link {
+  border: solid white;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: white;
+  color: #171718;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 13px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.airpods-info_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+.airpods-info_wrap_ear-pads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 30px;
+}
+.airpods-info_wrap_ear-case {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+}
+.airpods-info_wrap_ear-headphone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.airpods-info_wrap_ear-pads-p {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  color: white;
+}
+.airpods-info_wrap_ear-headphone-p {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.airpods-info_wrap_ear-case-p {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  color: white;
+}
+.prices__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 79px;
+}
+.prices__wrap_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border: solid white;
+  border-radius: 6px;
+  width: 255px;
+  height: 312px;
+}
+.prices__wrap_card-h {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.prices__wrap_card-p {
+  font-size: 14px;
+  line-height: 17px;
+}
+.prices__wrap_card-link {
+  font-family: "Montserrat-Bold";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border: solid #151515;
+  background: #151515;
+  color: white;
+  width: 161px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.footer {
+  background: #282828;
+  margin-top: 55px;
+}
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 81px 0;
+}
+.footer__wrap_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer__wrap_list-item a {
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  line-height: 24px;
+}
